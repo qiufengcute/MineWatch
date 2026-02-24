@@ -1,0 +1,59 @@
+# MCreator
+.mcreator/
+workspace/
+.mcreator.backup/
+*.mcreatortmp
+
+# Build
+build/
+
+# Run Cache
+run/
+
+# IDE Config
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+modules.xml
+
+# Eclipse
+.settings/
+.classpath
+.project
+.metadata/
+
+# VS Code
+.vscode/
+
+# OS File
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Log File
+*.log
+logs/
+
+# Gradle Cache
+.gradle/
+gradle-app.setting
+
+# Env File
+.env
+*.env.local
+*.env.development.local
+*.env.production.local
+
+# ==============================
+# Temp File
+*.tmp
+*.temp
+*~
+~$*
