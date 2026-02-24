@@ -1,0 +1,118 @@
+{
+  "mod_elements": [
+    {
+      "name": "ShowTime",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "show_time",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/minewatch/procedures/ShowTimeProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "MineWatch",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mine_watch",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minewatch/items/mine_watch.json",
+          "src/main/java/net/mcreator/minewatch/item/MineWatchItem.java",
+          "src/main/resources/assets/minewatch/models/item/mine_watch.json"
+        ]
+      }
+    },
+    {
+      "name": "ToMineWatch",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "to_mine_watch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minewatch/recipe/to_mine_watch.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "NowTimeText",
+      "type": "string",
+      "scope": "map",
+      "value": "\"\""
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.minewatch.mine_watch": "Mine Watch"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/minewatch/init/MinewatchModItems.java",
+      "src/main/java/net/mcreator/minewatch/mixin/ServerPlayerMixin.java",
+      "src/main/java/net/mcreator/minewatch/mixin/RepairItemRecipeMixin.java",
+      "src/main/java/net/mcreator/minewatch/event/PlayerEvents.java",
+      "src/main/java/net/mcreator/minewatch/network/MinewatchModVariables.java",
+      "src/main/java/net/mcreator/minewatch/mixin/ExperienceOrbMixin.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/minewatch/mixin/BlockItemMixin.java",
+      "src/main/java/net/mcreator/minewatch/event/BlockEvents.java",
+      "src/main/java/net/mcreator/minewatch/init/MinewatchModTabs.java",
+      "src/main/resources/META-INF/minewatch.accesswidener",
+      "src/main/java/net/mcreator/minewatch/event/ItemEvents.java",
+      "src/main/resources/minewatch.mixins.json",
+      "src/main/java/net/mcreator/minewatch/mixin/ItemStackMixin.java",
+      "src/main/java/net/mcreator/minewatch/MinewatchMod.java",
+      "src/main/java/net/mcreator/minewatch/mixin/BoneMealItemMixin.java",
+      "src/main/java/net/mcreator/minewatch/event/MiscEvents.java",
+      "src/main/java/net/mcreator/minewatch/mixin/LivingEntityMixin.java",
+      "src/main/java/net/mcreator/minewatch/mixin/PlayerMixin.java",
+      "src/main/java/net/mcreator/minewatch/event/LivingEntityEvents.java",
+      "src/main/java/net/mcreator/minewatch/MinewatchModClient.java",
+      "src/main/java/net/mcreator/minewatch/mixin/CommandsMixin.java",
+      "src/main/resources/fabric.mod.json"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "minewatch",
+    "modName": "MineWatch",
+    "version": "1.0.0",
+    "description": "A watch that tells time in Minecraft",
+    "author": "Qiufeng",
+    "websiteURL": "https://modrinth.com/mod/minewatch",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "modPicture": "icon",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.21.8",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.minewatch"
+  },
+  "mcreatorVersion": 202500345720
+}

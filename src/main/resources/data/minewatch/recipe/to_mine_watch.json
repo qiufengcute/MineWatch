@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": "minecraft:redstone",
+    "b": "minecraft:clock"
+  },
+  "result": {
+    "id": "minewatch:mine_watch",
+    "count": 1
+  }
+}
