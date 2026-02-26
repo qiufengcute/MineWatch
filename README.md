@@ -4,7 +4,7 @@
 
 [![Modrinth Downloads](https://img.shields.io/modrinth/dt/minewatch?color=00AF5C&label=Modrinth&logo=modrinth)](https://modrinth.com/mod/minewatch)
 [![GitHub License](https://img.shields.io/github/license/qiufengcute/MineWatch?color=yellow)](LICENSE)
-[Minecraft Version](https://img.shields.io/badge/Minecraft-1.21.8--1.21.11-00AF5C?logo=minecraft)
+![Minecraft Version](https://img.shields.io/badge/Minecraft-1.21.8--1.21.11-00AF5C?logo=minecraft)
 [![Mod Loader](https://img.shields.io/badge/loader-Fabric-1976d2?logo=fabric)](https://modrinth.com/discover/mods?g=categories:fabric)
 
 ---
