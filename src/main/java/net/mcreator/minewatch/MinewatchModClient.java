@@ -13,7 +13,7 @@ public class MinewatchModClient implements ClientModInitializer {
 	public void onInitializeClient() {
 		// Start of user code block mod constructor
 		// End of user code block mod constructor
-		ClientPlayNetworking.registerGlobalReceiver(MinewatchModVariables.SavedDataSyncMessage.TYPE, MinewatchModVariables.SavedDataSyncMessage::handleData);
+		ClientPlayNetworking.registerGlobalReceiver(MinewatchModVariables.PlayerVariablesSyncMessage.TYPE, MinewatchModVariables.PlayerVariablesSyncMessage::handleData);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

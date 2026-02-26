@@ -13,8 +13,16 @@
             "type": "entity"
           },
           {
-            "name": "world",
-            "type": "world"
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
           }
         ],
         "files": [
@@ -47,14 +55,38 @@
           "src/main/resources/data/minewatch/recipe/to_mine_watch.json"
         ]
       }
+    },
+    {
+      "name": "ChangeStatus",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "change_status",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/minewatch/procedures/ChangeStatusProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
     {
       "name": "NowTimeText",
       "type": "string",
-      "scope": "map",
+      "scope": "player_persistent",
       "value": "\"\""
+    },
+    {
+      "name": "ShowType",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "\"time\""
     }
   ],
   "sound_elements": [],
@@ -62,6 +94,9 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item.minewatch.mine_watch": "Mine Watch"
+    },
+    "zh_cn": {
       "item.minewatch.mine_watch": "Mine Watch"
     }
   },
