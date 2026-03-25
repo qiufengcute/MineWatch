@@ -22,6 +22,7 @@ public class ShowTimeProcedure {
 				int min = mins % 60;
 				if (hour >= 24) {
 					hour -= 24;
+					day += 1;
 				}
 				MinewatchModVariables.PlayerVariables _vars = entity.getAttachedOrCreate(MinewatchModVariables.PLAYER_VARIABLES);
 				_vars.NowTimeText = String.format("Day %d %02d:%02d", day, hour, min);
